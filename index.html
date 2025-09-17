@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Currículum -Evelyn</title>
+  <style>
+    body 
+    {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f4f6f9;
+      color: #333;
+    }
+    .cv-container 
+    {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      max-width: 1000px;
+      margin: 20px auto;
+      background: #fff;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      border-radius: 8px;
+      overflow: hidden;
+    }
+    /* Barra lateral */
+
+    .sidebar 
+    {
+      background: #0a4d91;
+      color: white;
+      padding: 20px;
+    }
+    .sidebar img
+     {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      border-radius: 0; /* Foto cuadrada */
+      margin-bottom: 15px;
+    }
+    .sidebar h2 
+    {
+      font-size: 16px;
+      margin: 20px 0 10px;
+      border-bottom: 1px solid rgba(255,255,255,0.5);
+      padding-bottom: 5px;
+    }
+    .sidebar p, .sidebar li 
+    {
+      font-size: 14px;
+      line-height: 1.6;
+    }
+    .sidebar ul 
+    {
+      padding-left: 15px;
+    }
+
+
+    /* Contenido derecho */
+    .content 
+    {
+      padding: 25px 30px;
+
+    }
+    .content h1 
+    {
+      font-size: 26px;
+      color: #0a4d91;
+      margin-bottom: 5px;
+
+    }
+    .content h2 
+    {
+      color: #0a4d91;
+      border-bottom: 2px solid #0a4d91;
+      margin-top: 20px;
+      padding-bottom: 5px;
+    }
+    .content h3 
+    {
+      margin: 10px 0 5px;
+      color: #333;
+    }
+    .content p, .content li 
+    {
+      font-size: 14px;
+      line-height: 1.6;
+    }
+    .content ul 
+    {
+      padding-left: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="cv-container">
+    <!-- Barra lateral -->
+    <aside class="sidebar">
+      <img src="img.jpg" alt="">
+      <h2>Contacto</h2>
+      <p><strong>Tel:</strong> 7121173519</p>
+      <p><strong>Email:</strong> evenicolas159@gmail.com</p>
+      <p><strong>Ubicación:</strong> San Bartolo Morelos Estado de Mexico</p>
+
+      <h2>Aptitudes</h2>
+      <ul>
+        <li>Trabajo en equipo</li>
+        <li>Resolución de problemas</li>
+        <li>Adaptabilidad</li>
+      </ul>
+
+      <h2>Idiomas</h2>
+      <p>Español </p>
+      <p>Inglés </p>
+    </aside>
+
+    <!-- Contenido principal -->
+    <main class="content">
+      <!-- Nombre arriba -->
+      <h1>Evelyn Nicolas Angeles </h1>
+
+      <section>
+        <h2>Perfil Profesional</h2>
+        <p>
+          Estudiante de <strong>Ingeniería en Tecnologías de la Información</strong> 
+          con experiencia en proyectos académicos usando Java, Android Studio y XAMPP. 
+          Interesado en desarrollo de software, aplicaciones móviles y bases de datos.
+        </p>
+      </section>
+
+      <section>
+        <h2>Proyectos / Experiencia</h2>
+        <article>
+          <h3>Sistema CRUD en Java</h3>
+          <p>Aplicación de gestión de usuarios con conexión a base de datos MySQL. Sistema que permite registrar, buscar, actualizar y eliminar datos en la base con interfaz grafica basica en Swing.</p>
+        </article>
+        <article>
+          <h3>Aplicación Android</h3>
+          <p>App móvil básica desarrollada en Android Studio, que permite crear, editar y eliminar tareas con almacenamiento local.</p>
+        </article>
+        <article>
+          <h3>Proyecto Web con XAMPP</h3>
+          <p>Sitio local en PHP y MySQL para pruebas académicas, Desarrollo de una web con registros de ususarios, login y CRUD basicoen MySQL.</p>
+        </article>
+      </section>
+
+      <section>
+        <h2>Formación Académica</h2>
+        <article>
+          <h3>Ingeniería en Tecnologías de la Información e Innovacion Digital</h3>
+          <p> UNIVERSIDAD POLITECNICA DE ATLACOMULCO </p>
+          <p>2024-2025</p>
+        </article>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
